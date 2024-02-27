@@ -1,0 +1,163 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+a {
+  color: #212121;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8c8c8c;
+}
+
+#logo {
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav_to_pages a {
+  margin-left: 2.5rem;
+}
+
+body{
+  padding: 40px 60px;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.social_icon {
+  margin-right: 30px;
+}
+
+h1 {
+ font-size: 2.5rem;
+ font-weight:700;
+ }
+
+h1, h2, h3 {
+letter-spacing: .2rem;
+margin-bottom: 1.5rem;
+}
+
+h3 {
+   color: #666666;
+ }
+
+
+header {
+   margin-bottom: 100px;
+ }
+
+.text_and_image_content {
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 100px;
+ }
+
+ .intro_text_container {
+   width: 50%;
+ }
+
+main {
+  max-width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img {
+  width:100%;
+  border-radius: 5%;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+#about_me {
+ text-align:center;
+}
+
+ p {
+   letter-spacing: .1rem;
+   line-height: 1.6;
+ }
+
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact_heading {
+  text-align: left;
+}
+
+#contact_paragraph {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: grey;
+}
+
+input[type="text"],input[type="email"], textarea {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 8px;
+  font-size: 1 rem;
+  text-align: left;
+  margin-bottom: 20px;
+  
+}
+
+textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #87CEEB;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font: 16px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #44626e;
+}
+  
+/* template by Angie and Hun @ GDSC USyd */
