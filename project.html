@@ -17,10 +17,11 @@
     <nav>
       <a id="logo" href="index.html">Purva Patil</a>
       <div id="nav_to_pages"> 
-       <a href="index.html#about_me">About</a>
-       <a href="project.html">Project</a>
-        <a href="experience.html">Experience</a>
-       <a href="contact.html">Contact</a>
+        <a href="index.html">About</a>
+        <a href="project.html">Project</a>
+         <a href="experience.html">Experience</a>
+         <a href="gallery.html">Gallery</a>
+         <a href="contact.html">Contact</a>
       </div>
       <button class="hamburger">
         <!-- material icons https://material.io/resources/icons/ -->
@@ -37,37 +38,62 @@
   </header>
   <main>
     <h1>Projects</h1>
-    <p class="italicized">Please note that all the projects mentioned in this portfolio are a result of my academic work from university.</p>
+
     <section class="text_and_image_content">
       <div class="intro_text_container">
-        <h2>Project 1: Gluttonous Snake Game</h2>
-        <p>This was a group project with 4 other team members, where we were given an initial template and had to create a Gluttonous Snake game using Python. As a group, we had to strictly follow the software development process (SDLC). My role was to contribute to the development of the code, create visual and graphic assets, and produce a wireframe.</p>
+        <h2>Project 1: Nutribite - Safety Culture Hackathon</h2>
+        <p>Within groups of 3-4, we were tasked to come up with an AI solution to any problem we wanted to work with. My group and I decided to target the new trend within society - a rise in health-conscious living and the increasing demand for personalised wellness solutions. We created "Nutribite" - an Android mobile app that allows users to input their health information (i.e. height, weight, health goals, allergies etc) and scan an image of a packaged food product which returns a recommendation on whether the users should consume the food or not, based on their target goals. Specfically, my role was to work on the backend, and find a way to use the AWS AI model APIs’ (Textract) and connect this with our backend server as well as the OpenAI model (which another team member worked on). This experience allowed me to gain a massive amount of knowledge regarding AWS, APIs, and the GO language.</p>
+        <br>
+        <li>Achieved "Most Technically Impressive Project" Award for Nutribite</li>
+      <br>
+      <p><b style="font-weight: bold;">Skills: AWS Textract, APIs, OpenAI Models, Go programming language, Flask</b></p> 
       </div>
       <div>
-        <img class="project-image" src="images/project1.png" alt="project 1">
+        <img class="project-image" src="images/win2.png" alt="win1">
       </div>
     </section>
-    
+
+  
     <section class="text_and_image_content">
       <div class="intro_text_container">
-        <h2>Project 2: Hangman Game</h2>
-        <p>Following on from the last project, alongside the same team members, our task was to create a hangman game (in python) from a given specification. Again, we had to follow the SDLC process, however this time we had to follow an agile approach, where we had to run through an SDLC process multiple times. My role in this project was to write and stimulate test cases (as the main software tester), create graphic assets and produce UML diagrams for each SDLC cycle.</p>
+        <h2>Project 1: Arduino Rover Maze Challenge</h2>
+        <p>This was a group project, where I worked with 2 other software engineering students to use C, assembly language and Arduinos to make an Arduino rover move through a maze. This project enabled me to understand the connection between Software and Hardware. My role was to contribute to the development of the code, specifically to handle rover senses. </p>
+          <ul>
+            <li>Accessed the rover sensor data and ensured that the rover stopped moving when it was too close to a maze wall</li>
+            <li>Implement a 3-point turn on the rover to successfully navigate through maze</li>
+          </ul>
+          <br>
+        <p>Through multiple testing and code modifications, we came to a conclusion that “Follow the left wall” algorithm would be the most successful code implementation to navigate the maze. In the end, our code won the fastest-time across all the other groups in this course!</p>
+        <br> 
+        <p ><b style="font-weight: bold;">Skills: Basic Assembly Knowledge, Arduino, C programming language</b></p>
       </div>
       <div>
-        <img class="project-image" src="images/project2.png" alt="project 2">
+        <img class="project-image" src="images/project5.png" alt="project 4">
       </div>
     </section>
-    
+
+    <section class="text_and_image_content">
+      <div class="intro_text_container">
+        <h2>Project 2: R Statistical Analysis</h2>
+        <p>I conducted comprehensive data analysis using R, exploring Housing Arrangements in LGAs and Bowel Cancer datasets. Through specific statistical tests and visualisations, I derived insights, formulated hypotheses, and contextualised findings with additional research. The results were compiled into professional reports, showcasing proficiency in data analysis, statistical testing, and report writing.</p>
+        <br> 
+        <p ><b style="font-weight: bold;">Skills: Graphical Summaries (boxplots, histograms), Two-Sample T-Tests</b></p>
+      </div>
+      <iframe src="images/individual_project.html" width="75%" height="500px" frameborder="0"></iframe>
+    </section>
+
     <section class="text_and_image_content">
       <div class="intro_text_container">
         <h2>Project 3: Chess Game</h2>
         <p>Currently, I am actively involved in the development of an XXLChess game using the Java programming language. This individual project is an exciting opportunity for me to apply my skills and knowledge in software development while working on a complex and strategic game.</p>
         <ul>
+          <li>Developed a 2 player XXL Chess game</li>
           <li>Utilising the PApplet processing library combined with Gradle</li>
           <li>Creating Testcase reports using JUnit and Jacoco</li>
           <li>Actively ensuring that code follows appropriate Object Oriented Design</li>
-          <li>Producing UMLs for my code</li>
-        </ul>    
+        </ul>
+        <br> 
+        <p ><b style="font-weight: bold;">Skills: Java, UML creation</b></p>
       </div>
       <div class="image-container">
         <img class="project-image" src="images/project3.png" alt="project 3">
@@ -79,42 +105,64 @@
         <h2>Project 4: Predicting PCOS in Women</h2>
         <p>This was a group project, where I worked with 3 other engineers (from Mechatronic and Biomedical background) to use Machine Learning Models to predict PCOS Presence in Women using a dataset from Kaggle. We have successfully created an algorithm in python which merges the prediction of 5 ML models (we chose the top 5 by accuracy from a group of 8 models we worked with) to give a final output of whether or not PCOS is present. As a Software Engineering student, I had the most experience with coding out of all our members. Therefore I was chosen to be the key developer for this project whilst overseeing the coding components of all the other members.</p>
         <ul>
-          <li>Specifically worked with the Gaussian Naive Bayes, KNN, Support Vector Machine (SVM) and Random Forest ML models</li>
-          <li>Executed testing with various random states and test sizes across our models</li>
-          <li>Responsible for writing a comprehensive and insightful project report</li>
-        </ul>   
+          <li>Coordinated the integration of Gaussian Naive Bayes, KNN, Support Vector Machine (SVM), Linear Regression, and Random Forest models to enhance prediction accuracy.</li>
+          <li>Conducted rigorous testing with various parameters to validate model performance and optimise results.</li>
+          <li>Authored a comprehensive project report outlining methodologies, findings, and insights.</li>
+        </ul>  
+        <br>
+        <p><b style="font-weight: bold;">Skills: ML Models and ML Model Integration</b></p> 
       </div>
       <div>
         <img class="project-image" src="images/project4.png" alt="project 4">
       </div>
     </section>
-
+    
     <section class="text_and_image_content">
       <div class="intro_text_container">
-        <h2>Project 5: Arduino Rover Maze Challenge</h2>
-        <p>This was a group project, where I worked with 2 other software engineering students to use C, assembly language and Arduinos to make an Arduino rover move through a maze. This project enabled me to understand the connection between Software and Hardware. My role was to contribute to the development of the code, specifically to handle rover senses. </p>
-          <ul>
-            <li>Accessed the rover sensor data and ensured that the rover stopped moving when it was too close to a maze wall</li>
-            <li>Implement a 3-point turn on the rover to successfully navigate through maze</li>
-            <p>  
-              
-            </p>
-          </ul>
-        <p>Through multiple testing and code modifications, we came to a conclusion that “Follow the left wall” algorithm would be the most successful code implementation to navigate the maze. In the end, our code won the fastest-time across all the other groups in this course!</p>
+        <h2>Project 5: Object Detection - CNN Project</h2>
+        <p>The project aimed to practice neural network knowledge by building a pipeline for fruit classification. The task involved building a fruit classification pipeline using various neural network architectures. After experimenting with various CNN architectures such as AlexNet, DenseNet, and ResNet, I found that AlexNet yielded the best results, achieving a final accuracy of 98.95%.</p>
+        <ul>
+          <li>Using K-Fold evaluation methods</li>
+          <li>Experimenting with Random Crop Transformation & various batch sizes</li>
+        </ul> 
+      <br>
+      <p><b style="font-weight: bold;">Skills: Creating and Experimenting with CNN architectures</b></p> 
       </div>
       <div>
-        <img class="project-image" src="images/project5.png" alt="project 4">
+        <img class="project-image" src="images/project1.png" alt="project 1">
+        <figcaption>Image source: Google</figcaption>
+      </div>
+    </section>
+
+    <section class="text_and_image_content2">
+      <div class="intro_text_container2">
+        <h2>Project 6: Scrum Project</h2>
+        <div class="full-width-text">
+          <p class="full-width-paragraph">This was a group project where I led my team as the Scrum Master and key developer to create a Virtual Scroll Access System. We used Java for the development of this system. Through this project, I gained hands-on experience in applying Agile principles, implementing CI/CD practices through tools like Jenkins, Gradle, and GitHub, and ensuring code quality through comprehensive testing with JUnit.</p>
+        </div>
+        <div class="content">
+          <ul>
+            <li>Led a team project as the key developer and Scrum Master to create a Virtual Scroll Access System within a structured Agile framework, spanning four weeks and three main sprints.</li>
+            <li>Wrote comprehensive use cases adhering to business requirements.</li>
+            <li>Coordinated the implementation of Scrum methodologies and CI/CD practices, ensuring adherence to project timelines and requirements.</li>
+            <li>Managed documentation of Scrum events, team interactions, and project artifacts.</li>
+            <li>As the Scrum Master, I was responsible for our Scrum Board and assigning tasks to each member using Jira</li>
+            <li>Presented project demos to the client at the end of each sprint, incorporating feedback to refine and improve the System.</li>
+            <li>Learnt to fix GitHub merging conflicts.</li>
+          </ul> 
+          <p><b style="font-weight: bold;">Skills: JUnit, GitHub, Gradle, UML diagram, Use Case Diagrams, Jenkins, Agile Framework and Principles, Hashing, Jira Software </b></p> 
+        </div>
+      </div>
+      <div>
+        <img class="project-image2" src="images/project2.png" alt="project 2">
       </div>
     </section>
     
-
-
-
   </main>
   <footer>
     <h2>Want to get in touch?</h2>
    <div class="social_icons">
-    
+    <a href="https://www.instagram.com/" class="social_icon">Instagram</a>
      <a href="https://www.linkedin.com/in/purva-patil-21913214b" class="social_icon">LinkedIn</a>
      <a href="contact.html" class="social_icon">Contact</a>
    </div>

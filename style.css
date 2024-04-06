@@ -229,7 +229,7 @@ button[type="submit"]:hover {
 
 #image-track {
   display: flex;
-  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  flex-wrap: wrap; 
   gap: 4vmin;
   position: absolute;
   left: 50%;
@@ -241,11 +241,11 @@ button[type="submit"]:hover {
 }
 
 .image {
-  width: 34vmin;
-  height: 34vmin;
-  object-fit: fill;
-  object-position: 100% center;
+  width: calc((90vw * 0.9) / 3 * 0.462) + 50; 
+  height: calc((90vw * 0.9) / 3); 
+  align-self: flex-start;
 }
+
 
 
 /* -- YouTube Link Styles -- */
@@ -321,6 +321,19 @@ body.menu-toggled > .meta-link > span {
   font-weight: 500;
 } 
 
+.full-width-paragraph {
+  width: 100%;
+}
 
+.text_and_image_content2{
+  display: block; /* Change display to block to allow the text to occupy the entire width */
+}
 
+.intro_text_container2{
+  width: 100%; /* Set the width to 100% to occupy the entire width */
+  max-width: none; /* Remove max-width restriction */
+}
 
+.project-image2{
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
